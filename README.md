@@ -181,7 +181,7 @@ git init
 git add .
 git commit -m "initial commit"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/mern-chat.git
+git remote add origin https://github.com/daniel10027/mern-chat.git
 git push -u origin main
 ```
 
