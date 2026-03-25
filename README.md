@@ -15,7 +15,7 @@
 ## 📱 Aperçu
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400/1B7F79/FFFFFF?text=MERN+Chat+Application" alt="MERN Chat Demo" width="80%">
+  <img src="images.png" alt="MERN Chat Application" width="100%">
 </div>
 
 **Student:** JEAN MARIE DANIEL VIANNEY GUEDEGBE — GOMYCODE
