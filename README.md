@@ -1,4 +1,22 @@
-# MERN Chat App
+# 💬 MERN Chat Application
+
+[![GitHub stars](https://img.shields.io/github/stars/daniel10027/mern-chat?style=social)](https://github.com/daniel10027/mern-chat)
+[![GitHub forks](https://img.shields.io/github/forks/daniel10027/mern-chat?style=social)](https://github.com/daniel10027/mern-chat)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Node.js](https://img.shields.io/badge/Node.js-18.x-green.svg)](https://nodejs.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green.svg)](https://www.mongodb.com/cloud/atlas)
+[![React](https://img.shields.io/badge/React-19-blue.svg)](https://reactjs.org/)
+[![Socket.io](https://img.shields.io/badge/Socket.io-4.x-black.svg)](https://socket.io/)
+
+## 🌐 Live Demo
+
+🔗 **Site en production :** [https://mernchat.myoctogone.com](https://mernchat.myoctogone.com)
+
+## 📱 Aperçu
+
+<div align="center">
+  <img src="https://via.placeholder.com/800x400/1B7F79/FFFFFF?text=MERN+Chat+Application" alt="MERN Chat Demo" width="80%">
+</div>
 
 **Student:** JEAN MARIE DANIEL VIANNEY GUEDEGBE — GOMYCODE
 
