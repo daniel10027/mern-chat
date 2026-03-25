@@ -362,5 +362,3 @@ az webapp log tail --name mern-chat-yourname --resource-group mern-chat-rg
 | Email | Nodemailer (Gmail SMTP) |
 | Security | Helmet, cors, express-rate-limit |
 | Deployment | Microsoft Azure Web App, GitHub Actions |
-#   m e r n - c h a t  
- 
