@@ -1,0 +1,13 @@
+const express = require('express');
+const r = express.Router();
+const ctrl = require('../controllers/forumController');
+const { protect } = require('../middleware/auth');
+r.get('/', ctrl.getPosts);
+r.get('/:id', ctrl.getPost);
+r.post('/', protect, ctrl.createPost);
+r.patch('/:id', protect, ctrl.updatePost);
+r.delete('/:id', protect, ctrl.deletePost);
+r.post('/:id/like', protect, ctrl.toggleLike);
+r.post('/:id/comments', protect, ctrl.addComment);
+r.delete('/:id/comments/:commentId', protect, ctrl.deleteComment);
+module.exports = r;

@@ -1,0 +1,11 @@
+const express = require('express');
+const r = express.Router();
+const ctrl = require('../controllers/userController');
+const { protect } = require('../middleware/auth');
+r.use(protect);
+r.get('/', ctrl.getUsers);
+r.get('/friends', ctrl.getFriends);
+r.get('/:id', ctrl.getUserById);
+r.patch('/profile', ctrl.updateProfile);
+r.post('/:id/friend', ctrl.toggleFriend);
+module.exports = r;
